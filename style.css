@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -107,4 +108,78 @@ footer {
     background-color: #343a40;
     color: #fff;
     padding: 20px 0;
+}
+
+/* Media Queries */
+
+/* Extra Small Devices, Phones */
+@media (min-width: 100px) {
+    .banner {
+        padding: 60px;
+        margin-top: 60px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+}
+
+/* Small Devices, Phones */
+@media (min-width: 420px) {
+    .banner {
+        padding: 80px;
+        margin-top: 80px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media (min-width: 768px) {
+    .banner {
+        padding: 120px;
+        margin-top: 100px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media (min-width: 1080px) {
+    .banner {
+        padding: 160px;
+        margin-top: 110px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
 }
